@@ -10,5 +10,9 @@
 */
 
 function esPalindromo(palabra) {
+  const texto2 = palabra
+  const texto = palabra.split("").reverse().join("")
+  return texto2 === texto
 
 }
+console.log(esPalindromo("ana"))
